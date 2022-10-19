@@ -1,0 +1,60 @@
+function setup() {
+  createCanvas(400, 400);
+  
+}
+
+function draw() {
+  background(220);
+
+  
+  
+  fill("black")
+  textSize(20)
+  text("Welcome to Place Four", 75, 40)
+  
+  
+  //row 1
+  
+  
+  
+  fill("yellow")
+  circle(335,125,50)
+  
+  fill("green")
+  circle(245,125,50)
+  
+  fill("black")
+  circle(155, 125, 50)
+  
+  fill("orange")
+  circle(65,125,50)
+  
+  //row 2
+  fill("blue")
+  circle(65,190,50)
+  
+  fill("yellow")
+  circle(155, 190, 50)
+  
+  fill("purple")
+  circle(245, 190, 50)
+  
+  fill("aquamarine")
+  circle(335, 190, 50)
+  
+
+  
+  //row 3
+  fill("yellow")
+  circle(65, 255, 50)
+  
+  fill("red")
+  circle(155, 255, 50)
+  
+  fill("yellow")
+  circle(245, 255, 50)
+  
+  fill("lightgreen")
+  circle(335, 255, 50)
+}
+
